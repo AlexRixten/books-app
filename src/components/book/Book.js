@@ -11,13 +11,10 @@ export default function Book(props) {
     useEffect(() => {
         Object.values(props.book).filter((item, index) => {
             if (item.id === bookId) {
-                console.log(1)
                 setBook(props.book[index])
             }
         })
     }, [])
-
-    console.log(book)
 
     return (
         <div className='book'>
