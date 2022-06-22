@@ -1,0 +1,97 @@
+.bookCard {
+    position: relative;
+    min-height: 317px;
+    margin-bottom: 90px;
+}
+
+.bookCardImg {
+    position: absolute;
+    top: 25px;
+    left: -80px;
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.bookCardTitle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.bookCardAuthor {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bookCardMark {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookCardVotes {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.002em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.bookCardDescr {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.003em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media(min-width: 575px){
+    .bookCard{
+        width: 425px;
+    }
+    .bookCardInfo{
+        min-height: 317px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #FFFFFF;
+        border: 0.5px solid #DEDEDE;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 0px 10px 10px 0px;
+        padding: 20px 15px 20px 100px;
+    }
+}
+
+@media(max-width: 575px) {
+    .bookCard {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        margin: 20px 0;
+        background: #FFFFFF;
+        border: 0.5px solid #DEDEDE;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .bookCardImg {
+        position: static;
+    }
+    .bookCardInfo{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,201 @@
+.book {
+    position: relative;
+    height: 583px;
+    background: url('../../assets/back.jpeg') center center/cover no-repeat;
+}
+
+.bookTop {
+    padding: 80px 0 60px 0;
+}
+
+.linkIcon {
+    font-size: 45px !important;
+}
+
+.bookWrapper {
+    position: absolute;
+    top: 200px;
+}
+
+.bookLeft {
+    max-width: 730px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(154, 160, 185, 0.25);
+}
+
+.bookLeftTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookLeftTopImg {
+    width: 290px;
+    height: 435px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #000;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.2));
+}
+
+.bookLeftTopName {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 60px 0 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookLeftTopTitle {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.bookLeftTopNameInfo {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bookLeftTopAutor {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bookLeftTopDate {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bookLeftTopMark {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bookLeftTopMarkInfo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.bookLeftTopNameBottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bookLink {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 155px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #FF971D;
+    border-radius: 10px;
+}
+
+.bookLeftBottom {
+    padding: 60px 35px;
+}
+
+.bookLeftBottomTitle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    letter-spacing: 0.003em;
+    color: #000000;
+}
+
+.bookLeftBottomDescription {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.004em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bookLeftBottomGenre {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookLeftBottomGenreItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DEDEDE;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.003em;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 8px 0;
+    min-width: 100px;
+}
+
+.bookLeftBottomInfo {
+    margin-top: 60px;
+}
+
+.bookLeftBottomInfoWrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bookLeftBottomInfoItem{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.bookLeftBottomInfoTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bookLeftBottomInfoDescr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 991px){
+    .bookWrapper{
+        position: static;
+    }
+    .bookLeftTop{
+        flex-wrap: wrap;
+    }
+}

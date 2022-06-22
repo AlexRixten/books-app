@@ -1,0 +1,98 @@
+.bookList{
+    background: #F5F6F8;
+    padding-top: 60px;
+}
+.bookListWrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px ;
+}
+.main {
+    max-height: 615px;
+    padding-bottom: 50px;
+}
+
+header{
+    padding: 47px 0 0 0;
+}
+header > h2 > span {
+    font-weight: 900;
+}
+
+main {
+    max-width: 550px;
+}
+
+.headerTitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.mainTitle {
+    margin-top: 135px;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 95px;
+    text-transform: capitalize;
+}
+
+.mainDescr {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+@media (min-width: 991px){
+    .main{
+        background: url('../../assets/hero.png') right center no-repeat;
+    }
+}
+@media (max-width: 991px){
+    .main{
+        background: url('../../assets/back.jpeg') center center/cover no-repeat;
+    }
+}
+
+@media(max-width: 575px){
+    .mainTitle{
+        margin-top: 50px;
+        font-size: 40px;
+        line-height: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1399px){
+    .bookListWrapper{
+        padding: 0 50px ;
+    }
+}
+
+@media(max-width: 1199px){
+    .bookListWrapper{
+        justify-content: center
+    }
+}
+
+@media(max-width: 575px){
+    .bookListWrapper{
+        padding: 0;
+        flex-direction: column;
+    }
+}
