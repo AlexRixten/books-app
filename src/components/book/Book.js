@@ -20,7 +20,7 @@ export default function Book(props) {
         <div className='book'>
             <div className="container">
                 <div className="bookTop">
-                    <Link to="/">
+                    <Link to="/books-app/">
                         <ArrowBack className='linkIcon' />
                     </Link>
                 </div>
