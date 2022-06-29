@@ -35,8 +35,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<BookList searchBook={searchBook} name={name} setName={setName} books={books} />} />
-          <Route path="/:bookId" element={<Book book={books} />} />
+          <Route exact path="/books-app/" element={<BookList searchBook={searchBook} name={name} setName={setName} books={books} />} />
+          <Route path="/books-app/:bookId" element={<Book book={books} />} />
         </Routes>
       </div>
     </BrowserRouter>

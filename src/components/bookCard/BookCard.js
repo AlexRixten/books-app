@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function BookCard(props) {
   return (
-    <Link className='link' to={"/" + props.item.id}>
+    <Link className='link' to={"/books-app/" + props.item.id}>
       <div className='bookCard'>
         <img src={props.item.volumeInfo.imageLinks?.thumbnail ? props.item.volumeInfo.imageLinks?.thumbnail : require('../../assets/none.webp')} alt="icon" className="bookCardImg" />
         <div className='bookCardInfo'>
